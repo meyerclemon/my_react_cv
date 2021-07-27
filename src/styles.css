@@ -1,0 +1,375 @@
+/* For Desktop View */
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    font-weight: regular;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #11999E;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
+    color: #11999E;
+}
+
+h5 {
+    font-weight: 500;
+    color: #11999E;
+}
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+
+}
+
+
+hr {
+    border: dotted #EAF6F6 4px;
+    border-bottom: none;
+    width: 4%;
+    margin: 10% auto;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+
+/* ************Containers************  */
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.top-container {
+    background-color: rgb(219, 247, 250);
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middle-container {
+    margin: 100px 0 0 0;
+}
+
+.bottom-container {
+    background-color: rgb(219, 247, 250);
+    padding-top: 5%;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+
+/* ************Navigation Bar************  */
+.navbar {
+    background-color: rgb(219, 247, 250);
+    height: 10%;
+    padding: 0 5% 0 5%;
+}
+
+
+/* About / Profile  */
+
+#about {
+    margin: 10% auto 0 auto;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+}
+
+/* ************Skill Row************  */
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+/* ************Contact and Footer ************  */
+
+
+#contact {
+    margin: 50px auto 100px auto
+}
+
+.contact-top {
+    margin: 40px auto 40px auto;
+    /* text-align: right; */
+    width: 60%;
+}
+
+
+.contact-row {
+    padding: 5% 0 10% 0;
+    /* background-color: #ffffff; */
+}
+
+.email-section {
+    text-align: left;
+    margin: auto 20% auto 20%;
+
+}
+
+.form-section {
+    margin: 5% 10%;
+}
+
+/* Form Template */
+/*---------------------------------------------*/
+
+
+input.input1 {
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+}
+
+textarea.input1 {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+
+/*---------------------------------------------*/
+.wrap-input1 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.input1 {
+    display: block;
+    width: 100%;
+    /* background: #e6e6e6; */
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+/*---------------------------------------------*/
+
+
+.footer-section {
+    background-color: #66BFBF;
+    padding: 5% 0 5% 0;
+    margin-bottom: 0;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
+/* ************Images************  */
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.contact-top-cloud {
+    margin: 0 50% -7% 0;
+    z-index: 1;
+}
+
+.contact-bottom-cloud {
+    position: absolute;
+    margin: 0 0 0 20%;
+    z-index: 1;
+}
+
+
+.profile-img {
+    margin: auto 0 10% 0;
+    width: 200px;
+}
+
+.fa-code {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.fa-eye {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.fa-fire-alt {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.social-icon {
+    margin: 15px 10px;
+    color: #66BFBF;
+}
+
+.m-icon {
+    margin: 15px 10px;
+    padding-bottom: 12px;
+}
+
+/* ************Buttons************  */
+
+
+.btn-primary {
+    margin: auto;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    margin: 15px 0 0 0;
+
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .top-container {
+        padding-top: 15%;
+    }
+
+    .middle-container {
+        margin-top: 0;
+    }
+
+    .bottom-container {
+        padding-top: 5%;
+    }
+
+    .navbar {
+        background-color: transparent;
+    }
+
+    .profile {
+        width: 75%;
+        margin: 10% auto;
+    }
+
+    .profile-img {
+        margin-bottom: 10%;
+        width: 50%;
+    }
+
+    .skill-row {
+        width: 75%;
+    }
+
+    .contact-bottom-cloud {
+        position: absolute;
+        margin: 0 0 0 15%;
+    }
+
+
+    .container-contact1 {
+        padding: 90px 80px 88px 90px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container-contact1 {
+        padding: 90px 80px 88px 80px;
+    }
+
+    .contact1-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-contact1 {
+        padding: 90px 15px 88px 15px;
+    }
+
+
+}
